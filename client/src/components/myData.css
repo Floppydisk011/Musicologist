@@ -1,0 +1,33 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.dataPage{
+    width: 100%;
+}
+
+.dataContainer{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.dataItem{
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.itemDescription{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.cancelConfirmdata{
+    display: flex;
+    margin-top: 5%;
+}
+
+.dataButton{
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,63 @@
+ 
+
+.instrumentUpload {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+.instrumentTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.instrumentContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+.field {
+    flex: 1;
+  }
+
+.currencySelector{
+    width: 40px;
+  }
+  
+.instrumentName,
+.instrumentPrice,
+.instrumentDescription,
+.instrumentFeedback,
+.instrumentBrand,
+.instrumentDimensions,
+.instrumentQuantity,
+.instrumentImage,
+.instrumentCategory,
+.instrumentWeight {
+    flex-basis: 150px;
+    margin-right: 10px;
+  }
+  
+.instrumentImage input[type='file'] {
+    margin-top: 5px;
+  }
+  
+.instrumentContainer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #cancelInstrument,
+  #confirmInstrument {
+    background-color: #007bff;
+  }
+  
+  #confirmInstrument {
+    background-color: #28a745;
+  }
+  
